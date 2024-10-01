@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*for nav main*/
+.nav {
+    background-color: rgb(6, 6, 42);
+    height: 70px;
+    padding: 25px 27px;
+    margin-left: 0;
+    position: fixed;
+}
+
+.nav .nav-items {
+    display: flex;
+
+}
+
+/*nav logo*/
+.nav .nav-items .logo img {
+    width: 119px;
+}
+
+/*nav items*/
+.nav .nav-items .nav-op {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-left: 400px;
+    font-weight: 500;
+    font-size: 17px;
+    gap: 39.9px;
+
+
+}
+
+
+.nav-op ul {
+    list-style: none;
+}
+
+.nav-op ul:hover {
+    color: rgb(220, 45, 18);
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.arrow {
+    font-size: 16px;
+}
+
+/* ----main---- */
+.main .main-img {
+    width: 100%;
+}
+
+/* --2nd main-- */
+
+
+.second-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* ---left-main-- */
+
+
+ .side-bar{
+   background-color: black;
+   height: 80vh;
+  
+   padding-top:-200px;
+   
+   
+ }
+ .left-img img{
+    margin-left: 300px;
+    margin-top: 60px;
+ }
+.left-text{
+    font-size: 50px;
+    
+    
+    
+}
+
+.side-bar h1{
+    margin-top: -350px;
+    color:white;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 110%;
+    font-size: 120px;
+    font-family: "EksellDisplayWeb-Small";
+}
+
+/* ---right-main */
+
+
+.para p{
+    font-family: "merivaregular";
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 140px;
+
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.social-icons {
+    display: flex;
+    margin-left: 100px;
+    gap: 7px;
+    margin-top: 15px;
+
+}
+
+.social-icons ul {
+    list-style: none;
+
+}
+
+.social-icons i {
+
+    color: white;
+    background-color: black;
+    padding: 9px;
+    border-radius: 50%;
+
+}
+.social-icons i:hover{
+    cursor: pointer;
+}
+
+/* third-main */
+
+.third-main img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    gap: 150px;
+}
+
+.first {
+    margin-top: 35px;
+}
+
+.first p {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 75px;
+
+}
+
+.head p {
+    margin-left: 60px;
+}
+
+.second {
+    margin-top: 35px;
+}
+
+.second p {
+    font-size: 14px;
+    margin-top: 5px;
+
+    font-family: sans-serif;
+
+}
+
+.second-links {
+    font-weight: bold;
+    margin: 12px;
+}
+
+.second-links:hover {
+    text-decoration: underline;
+    color: rgb(220, 45, 18);
+    cursor: pointer;;
+    cursor: pointer;
+}
+
+.third {
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
+
+.third p {
+    font-size: 14px;
+    font-family: sans-serif;
+
+
+}
+
+.vigil {
+    font-weight: bold;
+
+}
+
+.vigil:hover {
+    color: rgb(220, 45, 18);
+    cursor: pointer;;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.info:hover {
+    color: rgb(220, 45, 18);
+    cursor: pointer;;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.last-icon i {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+.last-icon i:hover{
+    background-color: rgb(220, 45, 18);
+    cursor: pointer;
+    transition: all 1s;
+}
